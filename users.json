@@ -61,9 +61,40 @@
     ],
     "Chores":[
         {
-            "Chore":"x",
-            "Floor":"1"
+            "Title":"1st Bathroom",
+            "Floor":1
+        },
+        {
+            "Title":"2nd Bathroom",
+            "Floor":2
+        },
+        {
+            "Title":"Kitchen",
+            "Floor":0
+        },
+        {
+            "Title":"Vacuum 1st Floor",
+            "Floor":0
+        },
+        {
+            "Title":"Vacuum 2nd",
+            "Floor":0
+        },
+        {
+            "Title":"Sweep Kitchen (Daily)",
+            "Floor":0
+        },
+        {
+            "Title":"Cat Litter",
+            "Floor":3
+        },
+        {
+            "Title":"Snow",
+            "Floor":0
+        },
+        {
+            "Title":"Trash",
+            "Floor":0
         }
-
     ]
 }

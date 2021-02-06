@@ -1,9 +1,10 @@
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
-        .title{
+        .display-1{
             text-align: center;
             color: black;
-            background-color: grey;
+            background-color: rgb(236, 236, 236);
         }
         .list{
             color: black;
@@ -18,7 +19,7 @@
             list-style-position: inside;
         }
         ul li:hover{
-            background: none;
+            background: rgb(192, 253, 255);
             color: black;
             font-size: 40px;
             margin: 5px;
@@ -28,11 +29,11 @@
     </style>
 </head>
 <body>
-    <div><h1 class="title">Chores</h1></div>
+    <div><h1 class="display-1">Chores</h1></div>
     <div>
         <ul>
             {% for chore in chores%}
-                <li>{{chore}}</li>
+                <li class="List-group-item">{{chore}}</li>
             {% endfor %}
         </ul>
     </div>
